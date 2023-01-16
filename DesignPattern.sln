@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_MVVM", "01_MVVM\01_MVVM.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Dependency_Injection", "02_Dependency_Injection\02_Dependency_Injection.csproj", "{D031949F-3B5F-4B05-B4C4-09B473A91F5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_Strategie", "_03_Strategie\03_Strategie.csproj", "{968D41E1-94C8-42F8-8B6F-FFD58F97BFBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D031949F-3B5F-4B05-B4C4-09B473A91F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D031949F-3B5F-4B05-B4C4-09B473A91F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D031949F-3B5F-4B05-B4C4-09B473A91F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968D41E1-94C8-42F8-8B6F-FFD58F97BFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968D41E1-94C8-42F8-8B6F-FFD58F97BFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968D41E1-94C8-42F8-8B6F-FFD58F97BFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968D41E1-94C8-42F8-8B6F-FFD58F97BFBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

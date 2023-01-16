@@ -1,0 +1,15 @@
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\03_Strategie.csproj.AssemblyReference.cache
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\03_Strategie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\03_Strategie.AssemblyInfoInputs.cache
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\03_Strategie.AssemblyInfo.cs
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\03_Strategie.csproj.CoreCompileInputs.cache
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\bin\Debug\net6.0\03_Strategie.exe
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\bin\Debug\net6.0\03_Strategie.deps.json
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\bin\Debug\net6.0\03_Strategie.runtimeconfig.json
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\bin\Debug\net6.0\03_Strategie.dll
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\bin\Debug\net6.0\03_Strategie.pdb
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\03_Strategie.dll
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\refint\03_Strategie.dll
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\03_Strategie.pdb
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\03_Strategie.genruntimeconfig.cache
+C:\Users\Edlejo\source\repos\DesignPattern\_03_Strategie\obj\Debug\net6.0\ref\03_Strategie.dll

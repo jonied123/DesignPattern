@@ -13,7 +13,7 @@
         <TextBox HorizontalAlignment="Left" Margin="220,154,0,0" TextWrapping="Wrap" Text="{Binding Firstname}" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Margin="220,0,0,0" TextWrapping="Wrap" Text="{Binding Lastname}" VerticalAlignment="Center" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="220,254,0,0" TextWrapping="Wrap" Text="{Binding Fullname}" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Clear" HorizontalAlignment="Left" Margin="530,154,0,0" VerticalAlignment="Top"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="265,104,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

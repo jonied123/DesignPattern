@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sKUX7hfar1afnBaJe76Pw6O1mCvaHd1gVEurRta0R1tSZkudNvmH8XyyaLDWSxQBksi7OiGB3MU1U0Gwvf07pA==",
+  "dgSpecHash": "wDXK7h0anSbhMqUODlOxZ3RiD7tfgsrfcPmR0pKpTO+koM/HIvqgcpO7pBilDiyb92ZBioB8YykRlogrVjmJjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Edlejo\\source\\repos\\DesignPattern\\02_Dependency_Injection\\02_Dependency_Injection.csproj",
   "expectedPackageFiles": [],
