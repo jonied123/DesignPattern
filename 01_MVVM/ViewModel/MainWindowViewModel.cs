@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_MVVM
+namespace _01_MVVM.ViewModel
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {
-        public MainWindowViewModel() 
+        public MainWindowViewModel()
         {
             Firstname = "Dave";
             Lastname = "Dev";
@@ -21,13 +21,13 @@ namespace _01_MVVM
         public string Firstname
         {
             get => firstname;
-            set 
+            set
             {
-                if(firstname != value)
+                if (firstname != value)
                 {
                     firstname = value;
-                    this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Firstname)));
-                    this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Fullname)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Firstname)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Fullname)));
                 }
             }
         }
@@ -36,11 +36,11 @@ namespace _01_MVVM
             get => lastname;
             set
             {
-                if (lastname != value) 
+                if (lastname != value)
                 {
                     lastname = value;
-                    this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Lastname)));
-                    this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Fullname)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Lastname)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Fullname)));
                 }
             }
         }
