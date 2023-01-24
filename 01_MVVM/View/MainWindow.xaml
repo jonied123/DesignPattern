@@ -4,16 +4,18 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_01_MVVM.View"
+        xmlns:viewmodel="clr-namespace:_01_MVVM.ViewModel"
+        xmlns:command="clr-namespace:_01_MVVM.ViewModel.Commands"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.DataContext>
-        <local:ViewModel.MainWindowViewModel />
+        <viewmodel:MainWindowViewModel />
     </Window.DataContext>
     <Grid>
         <TextBox HorizontalAlignment="Left" Margin="220,154,0,0" TextWrapping="Wrap" Text="{Binding Firstname}" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Margin="220,0,0,0" TextWrapping="Wrap" Text="{Binding Lastname}" VerticalAlignment="Center" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="220,254,0,0" TextWrapping="Wrap" Text="{Binding Fullname}" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Clear" HorizontalAlignment="Left" Margin="265,104,0,0" VerticalAlignment="Top"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="265,104,0,0" VerticalAlignment="Top" Command="{Binding ClearCommand}"/>
 
     </Grid>
 </Window>
