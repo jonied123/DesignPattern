@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _04_Factory
 {
-    internal class Pizza
+    public class Pizza
     {
     }
 }

@@ -6,7 +6,32 @@ using System.Threading.Tasks;
 
 namespace _04_Factory
 {
-    internal class Pizzashop
+    public class Pizzashop
     {
+        public Pizza pizza { get; set;}
+
+        public void CreatePizza(string par)
+        {
+            pizza = new PizzaFactory().CreatePizza(par);
+
+            bakePizza();
+            cutPizza();
+            boxPizza();
+        }
+
+        private void boxPizza()
+        {
+            Console.WriteLine("Packing Pizza");
+        }
+
+        private void cutPizza()
+        {
+            Console.WriteLine("Cutting Pizza");
+        }
+
+        private void bakePizza()
+        {
+            Console.WriteLine("Baking Pizza");
+        }
     }
 }

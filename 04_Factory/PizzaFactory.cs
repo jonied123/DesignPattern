@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace _04_Factory
 {
-    internal class PizzaFactory
+    public class PizzaFactory
     {
+        public Pizza CreatePizza(string name) 
+        {
+            if (name == "Greek")
+            {
+                return new Pizza();
+            }
+            if (name == "Chees")
+            {
+                return new Pizza();
+            }
+            return null;
+        }
     }
 }
