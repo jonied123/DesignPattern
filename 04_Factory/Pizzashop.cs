@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01_MVVM.Model
+namespace _04_Factory
 {
-    public class PersonModel
+    internal class Pizzashop
     {
     }
 }
