@@ -14,7 +14,7 @@ namespace _01_MVVM.ViewModel
         {
             this.ClearCommand = new DelegateCommand(
                 (o) => !String.IsNullOrEmpty(Firstname) || !String.IsNullOrEmpty(Lastname),
-                (o) => { this.Firstname = ""; this.Lastname = " "; }
+                (o) => { this.Firstname = ""; this.Lastname = ""; }
             );
             Firstname = "Dave";
             Lastname = "Dev";

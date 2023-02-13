@@ -15,12 +15,13 @@ namespace _01_MVVM.ViewModel.Commands
 
         public DelegateCommand(Predicate<object> canExecute, Action<object> execute)
         {
-            this.execute = execute;
-            this.canExecute = canExecute;
+            this.execute += execute;
+            this.canExecute += canExecute;
         }
 
         public DelegateCommand(Action<object> execute) : this(null, execute) { }
 
+        //Wird aufgerufen, wenn sich CanExecute ändern kann.
         public event EventHandler? CanExecuteChanged;
 
         public void RaisCanExecuteChanged() => this.CanExecuteChanged?.Invoke(this, EventArgs.Empty);
